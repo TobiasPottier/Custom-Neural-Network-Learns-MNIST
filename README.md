@@ -23,3 +23,7 @@ pip install -r requirements.txt
 # Run Main Python Script
 python3 Run.py
 ```
+3. Customizing the Neural Network:
+You can customize hyperparameters in train_model.py
+Then run the python script and the new parameters will be saved in the JSON: parameters.json
+You can then run any other script which will acces these new custom parameters and test your model! 
